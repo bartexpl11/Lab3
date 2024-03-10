@@ -20,21 +20,21 @@ print(zakupy2)
 
 
 # zad4
-a=4
-b=5
-c=3
+a=5
+b=3
+c=4
 def is_prostokatny(a,b,c):
-    if (a>b & a>c):
+    if (a>=b and a>=c):
         if b**2 + c**2 == a**2:
             return("JEST prostokatny")
         else:
             return("nie jest prostokatny")
-    elif (b>a & b>c):
+    elif (b>=a and b>=c):
         if a**2 + c**2 == b**2:
             return("JEST prostokatny")
         else:
             return("nie jest prostokatny")
-    elif (c>b & c>a):
+    elif (c>=b and c>=a):
         if b**2 + a**2 == c**2:
             return("JEST prostokatny")
         else:
@@ -55,3 +55,9 @@ print(pole_trapesu(a,h))
 
 
 # zad6
+def iloczyn(a=1, b=4, ile=10):
+    ilocz = [a]
+    for b
+    ilocz.append(a*b)
+    return(ilocz)
+print(iloczyn())
